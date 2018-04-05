@@ -12,4 +12,8 @@ module Memorable
     @@songs.clear
   end
 
+  def count
+    @@songs.count
+  end
+
 end
