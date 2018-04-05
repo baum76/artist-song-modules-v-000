@@ -1,19 +1,14 @@
 module Memorable
   module ClassMethods
+
     def reset_all
-      @@artists.clear
+      self.all.clear
     end
 
     def count
-      @@artists.count
-    end
-
-    def reset_all
-      @@songs.clear
-    end
-
-    def count
-      @@songs.count
+      self.all.count
     end
   end
+
+  
 end
